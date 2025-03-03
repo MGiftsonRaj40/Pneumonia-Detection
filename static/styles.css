@@ -459,7 +459,7 @@ footer {
         }
         to{
             transform: translateY(0px);
-            opacity: 0;
+            opacity: 1;
         }
     }
     @keyframes text-opacity {
@@ -467,18 +467,18 @@ footer {
             opacity: 0;
         }
         to{
-            opacity: 0;
+            opacity: 1;
         }
     }
     .container2 h1{
         animation: slide-top;
         animation-timeline: view();
-        animation-range: entry 0% cover 80%;
+        animation-range: entry 10% cover 40%;
     }
     .content {
         animation: text-opacity;
         animation-timeline: view(); 
-        animation-range: entry 0% cover 80%;
+        animation-range: entry 10% cover 40%;
     }
     .content2{
         animation: slide-left;
@@ -493,7 +493,7 @@ footer {
     .contact-form {
         animation: text-opacity;
         animation-timeline: view(); 
-        animation-range: entry 0% cover 80%;
+        animation-range: entry 10% cover 40%;
     }
     
 }

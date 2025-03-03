@@ -473,27 +473,27 @@ footer {
     .container2 h1{
         animation: slide-top;
         animation-timeline: view();
-        animation-range: entry 0% cover 20%;
+        animation-range: entry 0% cover 80%;
     }
     .content {
         animation: text-opacity;
         animation-timeline: view(); 
-        animation-range: entry 0% cover 30%;
+        animation-range: entry 0% cover 80%;
     }
     .content2{
         animation: slide-left;
         animation-timeline: view();
-        animation-range: entry 0% cover 20%;
+        animation-range: entry 0% cover 80%;
     }
     .secondlung{
         animation: slide-right;
         animation-timeline: view();
-        animation-range: entry 0% cover 20%;
+        animation-range: entry 0% cover 80%;
     }
     .contact-form {
         animation: text-opacity;
         animation-timeline: view(); 
-        animation-range: entry 0% cover 30%;
+        animation-range: entry 0% cover 80%;
     }
     
 }
